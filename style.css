@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main-head{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+#todo{
+    width: 350px;
+    padding: 10px;
+}
+
+#btn{
+    padding: 11px 15px 11px 15px; 
+}
+.sec-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-1{
+    padding: 12px 25px 12px 25px; 
+    background-color: red;
+    border: transparent;
+    color: white;
+}
+.btn-2{
+    padding: 12px 25px 12px 25px; 
+    background-color: green;
+    border: transparent;
+    color: white;
+}
+#red{
+    color: white;
+}
+#green{
+    color: white;
+}
+
+@media(max-width:1000px){
+    #todo{
+        width: 500px;
+        padding: 15px;
+    }
+    #btn{
+        padding: 15px;
+    }
+}
